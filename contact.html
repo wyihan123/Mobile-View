@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+	<script src="https://kit.fontawesome.com/fe3a3fe890.js" crossorigin="anonymous"></script>
+
+	<title>Contact Me</title>
+</head>
+
+<body>
+
+	<header>
+		<div class="nyc_res">New York 3 Stars Michelin Restaurants</div>
+		<nav>
+			<ul class="links">
+				<li><a href = "index.html" >Overview</a></li>
+				<li><a href = "chef.html">Chef's Table</a></li>
+				<li><a href = "masa.html">Masa</a></li>
+				<li><a href = "le.html">Le Bernardin</a></li>
+				<li class="active"><a href = "contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</header>
+
+  <main>
+  <form>
+    <fieldset>
+      <legend><h1>Contact Form</h1></legend>
+
+      <label for="name_id"><i class="fa-solid fa-user"></i> Your Name</label>
+      <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required>
+
+      <label for="email_id"><i class="fa-solid fa-envelope"></i> Your Email</label>
+      <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
+
+      <label for="phone_id"><i class="fa-solid fa-phone"></i> Your Phone</label>
+      <input type="tel" placeholder="123-456-7890" id = "phone_id" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+      <label for="msg"><i class="fa-solid fa-feather-pointed"></i> Leave a Message</label>
+      <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br>
+
+      <input type="submit" value = "Contact Me">
+    </fieldset>
+  </form>
+  </main>
+
+ <footer>
+  <p>New York 3 Stars MICHELIN Restaurants &copy; 2022</p>
+  <!-- <a href="https://github.com/wyihan123" class="fab fa-github" target="_blank"><span class="sr-only">Link to Github Profile</span></a> -->
+</footer>
+
+</body>
+</html>
